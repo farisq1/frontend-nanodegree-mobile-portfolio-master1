@@ -26,3 +26,5 @@
 
 ## Thank you.
 ## Regards Faris.
+
+##NOTICE: I have included a screenshot of the pagespeed that shows up to me on the google Pagespeed
