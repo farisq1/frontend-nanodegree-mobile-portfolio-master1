@@ -516,7 +516,7 @@ function updatePositions() {
   var phase;
   for (var i = 0; i < items.length; i++) {
      phase = Math.sin((scrollTop / 1250) + (i % 5));
-      items[i].style.left = items[i].basicLeft + 200 * phase + 'px';
+      items[i].style.left = items[i].basicLeft + 100 * phase + 'px';
     // document.body.scrollTop is no longer supported in Chrome.
         	   
 
@@ -539,7 +539,7 @@ window.addEventListener('scroll', updatePositions);
 document.addEventListener('DOMContentLoaded', function() {
   var cols = 8;
   var s = 256;
-  for (var i = 0; i < 200; i++) {
+  for (var i = 0; i < 50; i++) {
     var elem = document.createElement('img');
     elem.className = 'mover';
     elem.src = "images/pizza.png";
